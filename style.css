@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Trirong');
+a:hover{
+    text-decoration: none;
+}
+a:hover{
+    color: brown !important;
+}
+.main-btn{
+    display: inline;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: rgb(210, 175, 235);
+    border: 0ch;
+    font-size: .9375;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 2s;
+    border-radius: 5px;
+
+}
+.main-btn:hover{
+    background-color: rgb(120, 7, 220);
+    color: rgb(83, 4, 162);
+    transition: .25s;
+}
+.white-btn{
+    display: inline;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: rgb(254, 233, 8);
+    border: 0ch;
+    font-size: .9375;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 2s;
+    border-radius: 5px;
+}
+.white-btn:hover{
+    background-color: rgb(249, 110, 11);
+    color: brown;
+    transition: .25s;
+}
+
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all .4s ease-out;
+}
+.navigation-wrap .nav-item{
+    padding: 0 .625rem;
+    transition: all 200ms linear;
+}
+.navbar-toggler :focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+.nav-link{
+    font-size: 0.9365rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: red;
+    letter-spacing: 1px;
+}
+.navigation-wrap .main-btn{
+    padding: 0.3125rem 1,4725rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+/*Top banner*/
+.top-banner{
+    width: 100%;
+    background: url(images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;    
+    padding: 16.875rem 0 9.375rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: darkgoldenrod;
+}
+p{
+    color: chocolate;
+}
+/* scounter design */
+.counter-section{
+    background-color: rgb(169, 254, 0);
+    padding: 2.5rem 0rem;
+}
+.counter-section p{
+    color: whitesmoke;
+    text-transform: capitalize;
+}
